@@ -23,7 +23,7 @@ recently removed packages for Xenial. While that's a smart thing to do, but I ha
 
 ## Ways to build your own liquorix kernel
 The main source for the liquorix kernel is the original [linux kernel by torvalds](https://github.com/torvalds/linux). To find the version that the liquorix
-kernel patches find the edits made to Makefile in the patch file at linux-liquorix/debian/patches/zen in your inetersted liquorix version at (liquorix package)[https://github.com/damentz/liquorix-package]. Then download original kernel source code, paste the patch file you obtained from linux-liquorix/debian/patches/zen in the kernel source root and then execute
+kernel patches find the edits made to Makefile in the patch file at linux-liquorix/debian/patches/zen in your inetersted liquorix version at [liquorix package](https://github.com/damentz/liquorix-package). Then download original kernel source code, paste the patch file you obtained from linux-liquorix/debian/patches/zen in the kernel source root and then execute
  > patch -p1 < LIQUORIX_PATCH_FILE
 
  This one hosts the kernel 5.8.17-lqx2 code named "Tea Storm".
